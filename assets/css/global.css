@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* @import "./home.css"; */
 
 /* variables */
 
@@ -14,5 +16,10 @@
   --colour-bg-footer: #1d2830;
 
   /* text */
+}
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
