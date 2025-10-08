@@ -180,3 +180,17 @@
 .selector__name {
     font-weight: bold;
 }
+
+.statblock {
+    display: flex;
+    background-color: var(--colour-primary);
+    text-align: center;
+    padding: 2rem;
+}
+
+.statblock__text {
+    padding: 1rem;
+    margin: auto;
+    width: 80%;
+    color: #ffffff;
+}
