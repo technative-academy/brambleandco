@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* variables */
+
+::root {
+  /* colour palette */
+
+  --colour-primary: #798eff;
+  --colour-primary-tint: #f6f3fc;
+  --colour-text-headings: #35414b;
+  --colour-text-body: #4e5a65;
+  --colour-bg-header: #fbfafe;
+  --colour-bg-block: #fbfafe;
+  --colour-bg-footer: #1d2830;
+
+  /* text */
+
+}
