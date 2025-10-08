@@ -7,21 +7,42 @@
         <link rel="stylesheet" href="./assets/css/header.css" />
         <link rel="stylesheet" href="./assets/css/home.css" />
         <script src="./assets/js/home.js" defer></script>
+        <script src="./assets/js/header.js" defer></script>
         <title>Bramble & Co</title>
     </head>
     <body>
         <header class="header">
-            <nav class="header__nav">
+            <nav class="nav">
                 <img
-                    class="header__nav__logo"
+                    class="logo"
                     src="./assets/images/placeholder.png"
                     alt="Bramble and Co Logo"
                 />
-                <a href="" class="header__nav__button">Menu</a>
-                <div class="header__nav__menu">
-                    <a href="" class="header__nav__menu__item">Home</a>
-                    <a href="" class="header__nav__menu__item">Products</a>
-                    <a href="" class="header__nav__menu__item">About</a>
+                <div class="menu">
+                    <a href="" class="menu__button">Menu</a>
+                    <ul class="linklist">
+                        <li class="linklist__item">
+                            <a
+                                class="linklist__link"
+                                href=""
+                                >Home</a
+                            >
+                        </li>
+                        <li class="linklist__item">
+                            <a
+                                class="linklist__link"
+                                href=""
+                                >Products</a
+                            >
+                        </li>
+                        <li class="linklist__item">
+                            <a
+                                class="linklist__link"
+                                href=""
+                                >About</a
+                            >
+                        </li>
+                    </ul>
                 </div>
             </nav>
             <div class="header__content">
@@ -123,12 +144,6 @@
                         <p class="tile__text">
                             Crispy tortilla chips piled high with melted cheese,
                             jalapeños, and a mix of savory toppings
-                <div class="options__tile">
-                    <div class="tile__content">
-                        <h3 class="tile__title">Simple booking</h3>
-                        <p class="tile__text">
-                            Our booking system is easy to use and helps you
-                            manage your appointments efficiently.
                         </p>
                     </div>
                 </div>
