@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="./assets/css/global.css" />
         <link rel="stylesheet" href="./assets/css/header.css" />
         <link rel="stylesheet" href="./assets/css/home.css" />
+        <script src="./assets/js/home.js" defer></script>
         <title>Bramble & Co</title>
     </head>
     <body>
@@ -77,12 +78,13 @@
         </section>
         <section class="gallery">
             <img
-                src="./assets/images/food/beefzilla.jpg"
+                id="galleryImage"
+                src="./assets/images/food/pancakes.jpg"
                 alt="pancakes on a table"
                 class="gallery__img"
             />
             <div class="gallery__options">
-                <div class="options__tile options__tile-active">
+                <div id="firstTile" class="options__tile options__tile-active">
                     <div class="tile__content">
                         <h3 class="tile__title">Pancakes</h3>
                         <p class="tile__text">
@@ -91,7 +93,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="options__tile">
+                <div id="secondTile" class="options__tile">
                     <div class="tile__content">
                         <h3 class="tile__title">Beefzilla</h3>
                         <p class="tile__text">
@@ -101,21 +103,21 @@
                         </p>
                     </div>
                 </div>
-                <div class="options__tile">
+                <div id="thirdTile" class="options__tile">
                     <div class="tile__content">
-                        <h3 class="tile__title">Pancakes</h3>
+                        <h3 class="tile__title">Milkshake</h3>
                         <p class="tile__text">
-                            A stack of golden, fluffy pancakes, layered with
-                            slices of fresh strawberries and bananas.
+                            A creamy, chilled blend of milk and ice cream,
+                            whipped to smooth perfection.
                         </p>
                     </div>
                 </div>
-                <div class="options__tile">
+                <div id="fourthTile" class="options__tile">
                     <div class="tile__content">
-                        <h3 class="tile__title">Pancakes</h3>
+                        <h3 class="tile__title">Nachos</h3>
                         <p class="tile__text">
-                            A stack of golden, fluffy pancakes, layered with
-                            slices of fresh strawberries and bananas.
+                            Crispy tortilla chips piled high with melted cheese,
+                            jalapeños, and a mix of savory toppings
                         </p>
                     </div>
                 </div>
