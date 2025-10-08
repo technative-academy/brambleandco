@@ -2,7 +2,7 @@
 
 /* variables */
 
-::root {
+:root {
     /* colour palette */
 
     --colour-primary: #798eff;
@@ -14,10 +14,57 @@
     --colour-bg-footer: #1d2830;
 
     /* text */
+    --font-family: 'Inter', sans-serif;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: var(--font-family);
+}
+
+/* text */
+h1,
+h2,
+h3 {
+    font-weight: 600;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+p, li{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 64px;
+        line-height: 76px;
+    }
+
+    h2 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    h3 {
+        font-size: 16px;
+        line-height: 24px;
+    }
 }
