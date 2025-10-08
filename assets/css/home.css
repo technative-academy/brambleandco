@@ -130,3 +130,47 @@
     border: none;
     color: #ffffff;
 }
+
+.reviews{
+ text-align: center;
+}
+
+.reviews__title {
+
+}
+
+.reviews__content {
+    display: none;
+}
+
+.reviews__content--active {
+    display: block;
+}
+
+.reviews__selectors {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.selector {
+    display: flex;
+}
+
+.selector--active {
+    border-top: 5px solid var(--colour-primary);
+}
+
+.selector__profile {
+    height: 3rem;
+    width:auto;
+    border-radius: 2rem;
+}
+
+.selector__name {
+
+}
+
+.selector__role {
+
+}
