@@ -55,3 +55,39 @@
 .tile__text {
     font-size: 0.75rem;
 }
+
+.facts {
+    margin: 0 1rem;
+    text-align: center;
+}
+.facts__heading {
+    margin: 2rem 1rem;
+}
+.facts__cards {
+    margin: 1rem 1rem;
+}
+.facts__single-card {
+    margin: 2.5rem 0;
+}
+.facts__single-card-hidden {
+    display: none;
+}
+
+.facts__img {
+    width: 20%;
+}
+.facts__title {
+    font-size: 1rem;
+    font-weight: 600;
+}
+.facts__description {
+    font-size: 0.75rem;
+}
+.facts__button {
+    width: 60%;
+    padding: 0.5rem 0;
+    padding: 0.75rem 2.5rem;
+    background-color: #f1e9f5;
+    border: none;
+    color: #8f0ce0;
+}
