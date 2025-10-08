@@ -62,9 +62,9 @@ function initialiseReviews() {
     const reviewSelectorTwo = document.querySelector('#selector-two')
     const reviewSelectorThree = document.querySelector('#selector-three')
 
-    const reviewContentOne = document.querySelector('#reviews-one')
-    const reviewContentTwo = document.querySelector('#reviews-two')
-    const reviewContentThree = document.querySelector('#reviews-three')
+    const reviewContentOne = document.querySelector('#review-one')
+    const reviewContentTwo = document.querySelector('#review-two')
+    const reviewContentThree = document.querySelector('#review-three')
 
     reviewSelectorOne.addEventListener('click', () => {
         console.log('Review One Selected')
