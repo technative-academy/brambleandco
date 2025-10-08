@@ -35,10 +35,23 @@
 .gallery__options {
 }
 .options__tile {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-bottom: 1px solid #e0e0e0;
 }
+
+.options__tile-active {
+    background-color: #f1e9f5;
+    border-bottom: 6px solid #8f0ce0;
+}
+
 .tile__content {
+    margin: 0.5rem 0;
 }
 .tile__title {
+    margin: 0.5rem 0;
 }
 .tile__text {
+    font-size: 0.75rem;
 }

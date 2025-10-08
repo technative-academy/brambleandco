@@ -7,7 +7,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .header__nav__logo {
@@ -22,7 +21,7 @@
 .header__content {
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
 }
 
 .header__content__img {
@@ -48,8 +47,5 @@
 }
 
 .custom-shape-divider-bottom-1759919573 .shape-fill {
-    fill: #FFFFFF;
+    fill: #ffffff;
 }
-
-
-
