@@ -1,17 +1,20 @@
 .header {
-    background-color: var(--colour-bg-header);
     position: relative;
+    background-color: var(--colour-bg-header);
+    padding-top: 1rem;
 }
 
 .header__nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 3rem;
 }
 
 .header__nav__logo {
     height: 2.75rem;
     width: auto;
+    padding-left: 1rem;
 }
 
 .header__nav__button {
@@ -21,13 +24,14 @@
 .header__content {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
 }
 
 .header__content__img {
     width: 85%;
     height: auto;
     border-radius: 2rem;
+    margin-bottom: 4rem;
 }
 
 .custom-shape-divider-bottom-1759919573 {
@@ -47,5 +51,5 @@
 }
 
 .custom-shape-divider-bottom-1759919573 .shape-fill {
-    fill: #ffffff;
-}
+    fill: #FFFFFF
+;}
