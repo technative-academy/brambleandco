@@ -48,11 +48,16 @@ h3 {
 }
 
 p,
-li {
+li,
+figcaption {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: var(--colour-text-body);
+}
+
+figcaption {
+    font-style: italic;
 }
 
 @media (min-width: 900px) {
