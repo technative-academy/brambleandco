@@ -1,0 +1,51 @@
+.about__description {
+    padding: 3rem;
+}
+
+.about__text {
+    margin-top: 1rem;
+}
+
+.about__gallery {
+    padding: 1rem;
+}
+
+.about__image {
+    width: 100%;
+    height: auto;
+    border-radius: 5rem;
+}
+
+.about__caption {
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.contact {
+    padding: 2rem;
+}
+
+.contact__title {
+    margin-bottom: 1rem;
+}
+
+.email {
+    margin-top: 1rem; 
+}
+
+.email__description {
+    margin-bottom: 1rem;
+}
+
+.email__label,
+.email__input {
+    display: block;
+}
+
+.email__input{
+    margin-left: 0.2rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
