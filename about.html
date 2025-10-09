@@ -11,7 +11,7 @@
     </head>
     <body>
         <header></header>
-        <main>
+        <main class="aboutPage">
             <article class="about">
                 <section class="about__description">
                     <h2 class="about__title">We are great.</h2>
@@ -41,10 +41,10 @@
                     </figcaption>
                 </section>
             </article>
-            <hr />
+            <hr class="aboutPage__divider" />
             <article class="contact">
-                <h3 class="contact__title">Contact Us</h3>
                 <section class="email">
+                    <h3 class="contact__title">Contact Us</h3>
                     <p class="email__description">
                         Email us by filling in the form below
                     </p>
@@ -53,6 +53,7 @@
                         <input
                             class="email__input"
                             type="text"
+                            id="name"
                             name="name"
                             placeholder="Your Name"
                         />
@@ -60,16 +61,18 @@
                         <input
                             class="email__input"
                             type="text"
+                            id="email"
                             name="email"
                             placeholder="Your Email Address"
                         />
                         <label class="email__label" for="name">Message</label>
-                        <input
+                        <textarea
                             class="email__input"
-                            type="text"
+                            id="message"
                             name="message"
                             placeholder="Your Message"
-                        />
+                            rows="7"
+                        ></textarea>
                         <input
                             class="email__submit"
                             type="submit"

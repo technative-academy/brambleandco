@@ -1,3 +1,4 @@
+/* about description */
 .about__description {
     padding: 3rem;
 }
@@ -11,6 +12,7 @@
 }
 
 .about__image {
+    display: block;
     width: 100%;
     height: auto;
     border-radius: 5rem;
@@ -22,6 +24,39 @@
     margin-bottom: 2rem;
 }
 
+@media (min-width: 900px) {
+
+    .about {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 10%;
+        gap: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    .about__description,
+    .about__gallery {
+        padding: 0;
+    }
+
+    .about__description {
+        flex: 1;
+    }
+
+    .about__gallery {
+        flex: 1;
+    }
+
+    .about__caption {
+        margin-bottom: 0;
+    }
+
+    .aboutPage__divider {
+        display: none;
+    }
+}
+
+/* contact section */
 .contact {
     padding: 2rem;
 }
@@ -30,8 +65,20 @@
     margin-bottom: 1rem;
 }
 
+@media (min-width: 900px) {
+    .contact {
+    background-color: var(--colour-primary-tint);
+    padding: 5rem 10%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 5rem;
+    }
+}
+
+/* form */
 .email {
-    margin-top: 1rem; 
+    margin-top: 1rem;
 }
 
 .email__description {
@@ -43,10 +90,13 @@
     display: block;
 }
 
-.email__input{
-    /* margin-left: 0.2rem; */
+.email__input {
     margin-bottom: 1rem;
     padding: 1rem;
+}
+
+.email__input--big {
+    line-height: 4rem;
 }
 
 .email__label {
@@ -61,6 +111,19 @@
     border-radius: 0.4rem;
 }
 
+@media (min-width: 900px) {
+    .email {
+        flex: 1;
+        margin: 0;
+    }
+
+    .email__input {
+        width: 100%;
+        max-width: 700px;
+    }
+}
+
+/* map */
 .location {
     margin-top: 4rem;
 }
@@ -73,3 +136,11 @@
 .location__title {
     margin: 2rem 0;
 }
+
+@media (min-width: 900px) {
+    .location {
+        flex: 1;
+        margin: 0;
+    }
+}
+
