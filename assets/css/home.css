@@ -181,6 +181,7 @@
     font-weight: bold;
 }
 
+/* stats block */
 .statblock {
     display: flex;
     background-color: var(--colour-primary);
@@ -193,4 +194,12 @@
     margin: auto;
     width: 80%;
     color: #ffffff;
+}
+
+@media (min-width: 900px) {
+    .statblock {
+        width: 90%;
+        margin: auto;
+        border-radius: 1rem;
+    }
 }
