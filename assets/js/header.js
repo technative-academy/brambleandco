@@ -1,11 +1,9 @@
-// Toggle the menu visibility
-function toggleMenu() {
-  const menuElement = document.querySelector(".menu");
-  menuElement.classList.toggle("is-visible");
-}
+const hamMenu = document.querySelector('.ham-menu');
 
-// Add a listener to the button to toggle menu visibility on click
-const menuToggleElement = document.querySelector(".menu__button");
-menuToggleElement.addEventListener("click", toggleMenu);
+const linkMenu = document.querySelector('.menu');
 
-
+hamMenu.addEventListener('click', () => {
+  hamMenu.classList.toggle('ham-menu--active');
+  linkMenu.classList.toggle('menu--active');
+  document.body.classList.toggle('body--lock');
+});
