@@ -22,7 +22,7 @@
 
 .header__logo {
     font-family: var(--font-logo);
-    color: var(--colour-text-headings);
+    color: #146b1b;
     
 }
 
@@ -31,7 +31,6 @@
     .header__upper{
         flex-direction: column;
         gap: 2rem;
-        margin-bottom: 1rem;
     }
 
 }
