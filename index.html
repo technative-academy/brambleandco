@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="./assets/css/footer.css" />
         <script src="./assets/js/home.js" defer></script>
         <script src="./assets/js/header.js" defer></script>
+        <script src="./assets/js/footer.js" defer></script>
         <title>Bramble & Co</title>
     </head>
     <body>
@@ -18,13 +19,19 @@
                 <nav class="menu">
                     <ul class="linklist">
                         <li class="linklist__item">
-                            <a class="linklist__link" href="./index.html">Home</a>
+                            <a class="linklist__link" href="./index.html"
+                                >Home</a
+                            >
                         </li>
                         <li class="linklist__item">
-                            <a class="linklist__link" href="./products.html">Products</a>
+                            <a class="linklist__link" href="./products.html"
+                                >Products</a
+                            >
                         </li>
                         <li class="linklist__item">
-                            <a class="linklist__link" href="./about.html">About</a>
+                            <a class="linklist__link" href="./about.html"
+                                >About</a
+                            >
                         </li>
                     </ul>
                 </nav>
@@ -296,19 +303,32 @@
             </section>
         </main>
         <footer class="footer">
-            <div class="footer__links">
-                <ul class="footlist">
-                    <li class="footlist__title">Company</li>
-                    <li class="footlist__entry">About Us</li>
-                    <li class="footlist__entry">Contact Us</li>
-                </ul>
-                <ul class="footlist">
-                    <li class="footlist__title">Legal</li>
-                    <li class="footlist__entry">Cookies Policy</li>
-                    <li class="footlist__entry">Privacy Policy</li>
-                    <li class="footlist__entry">Terms of Service</li>
-                </ul>
+            <div class="footer__upper">
+                <div class="footer__links">
+                    <h3 class="links__title">Company</h3>
+                    <div class="arrow-menu">
+                        <span class="arrow-menu__line"></span>
+                        <span class="arrow-menu__line"></span>
+                    </div>
+                    <ul class="links__company">
+                        <li class="links__link">About Us</li>
+                        <li class="links__link">Contact Us</li>
+                    </ul>
+                </div>
+                <div class="footer__links">
+                    <h3 class="links__title">Legal</h3>
+                    <div class="arrow-menu">
+                        <span class="arrow-menu__line"></span>
+                        <span class="arrow-menu__line"></span>
+                    </div>
+                    <ul class="links__legal">
+                        <li class="links__link">Cookie Policy</li>
+                        <li class="links__link">Privacy Policy</li>
+                        <li class="links__link">Terms of Service</li>
+                    </ul>
+                </div>
             </div>
+
             <hr />
             <div class="footer__end">
                 <p class="footer__rights">&copy; 2025 - All Rights reserved</p>
