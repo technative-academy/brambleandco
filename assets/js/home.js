@@ -1,20 +1,15 @@
 function initialisePage() {
     initialiseGallery()
     initialiseReviews()
+    initialiseFacts()
 }
 
 function initialiseGallery() {
     const galleryImage = document.querySelector('#galleryImage')
-
     const getFirstTile = document.querySelector('#firstTile')
     const getSecondTile = document.querySelector('#secondTile')
     const getThirdTile = document.querySelector('#thirdTile')
     const getFourthTile = document.querySelector('#fourthTile')
-
-    const getMessage = document.querySelector('#message')
-    const getOrganisation = document.querySelector('#organisation')
-    const getTechnical = document.querySelector('#technical')
-    const factsButton = document.querySelector('#facts-button')
 
     getFirstTile.addEventListener('click', () => {
         console.log('First Tile Clicked')
@@ -48,13 +43,6 @@ function initialiseGallery() {
         getThirdTile.classList.remove('options__tile-active')
         getFourthTile.classList.add('options__tile-active')
     })
-
-    factsButton.addEventListener('click', () => {
-        console.log('Facts Button Clicked')
-        getMessage.classList.toggle('facts__single-card-hidden')
-        getOrganisation.classList.toggle('facts__single-card-hidden')
-        getTechnical.classList.toggle('facts__single-card-hidden')
-    })
 }
 
 function initialiseReviews() {
@@ -68,34 +56,52 @@ function initialiseReviews() {
 
     reviewSelectorOne.addEventListener('click', () => {
         console.log('Review One Selected')
-        reviewSelectorOne.classList.add('selector--active');
-        reviewSelectorTwo.classList.remove('selector--active');
-        reviewSelectorThree.classList.remove('selector--active');
-        reviewContentOne.classList.add('reviews__content--active');
-        reviewContentTwo.classList.remove('reviews__content--active');
-        reviewContentThree.classList.remove('reviews__content--active');
+        reviewSelectorOne.classList.add('selector--active')
+        reviewSelectorTwo.classList.remove('selector--active')
+        reviewSelectorThree.classList.remove('selector--active')
+        reviewContentOne.classList.add('reviews__content--active')
+        reviewContentTwo.classList.remove('reviews__content--active')
+        reviewContentThree.classList.remove('reviews__content--active')
     })
 
     reviewSelectorTwo.addEventListener('click', () => {
         console.log('Review One Selected')
-        reviewSelectorOne.classList.remove('selector--active');
-        reviewSelectorTwo.classList.add('selector--active');
-        reviewSelectorThree.classList.remove('selector--active');
-        reviewContentOne.classList.remove('reviews__content--active');
-        reviewContentTwo.classList.add('reviews__content--active');
-        reviewContentThree.classList.remove('reviews__content--active');
+        reviewSelectorOne.classList.remove('selector--active')
+        reviewSelectorTwo.classList.add('selector--active')
+        reviewSelectorThree.classList.remove('selector--active')
+        reviewContentOne.classList.remove('reviews__content--active')
+        reviewContentTwo.classList.add('reviews__content--active')
+        reviewContentThree.classList.remove('reviews__content--active')
     })
 
     reviewSelectorThree.addEventListener('click', () => {
         console.log('Review One Selected')
-        reviewSelectorOne.classList.remove('selector--active');
-        reviewSelectorTwo.classList.remove('selector--active');
-        reviewSelectorThree.classList.add('selector--active');
-        reviewContentOne.classList.remove('reviews__content--active');
-        reviewContentTwo.classList.remove('reviews__content--active');
-        reviewContentThree.classList.add('reviews__content--active');
+        reviewSelectorOne.classList.remove('selector--active')
+        reviewSelectorTwo.classList.remove('selector--active')
+        reviewSelectorThree.classList.add('selector--active')
+        reviewContentOne.classList.remove('reviews__content--active')
+        reviewContentTwo.classList.remove('reviews__content--active')
+        reviewContentThree.classList.add('reviews__content--active')
     })
 }
 
+function initialiseFacts() {
+    const getMessage = document.querySelector('#message')
+    const getOrganisation = document.querySelector('#organisation')
+    const getTechnical = document.querySelector('#technical')
+    const factsButton = document.querySelector('#facts-button')
+
+    factsButton.addEventListener('click', () => {
+        console.log('Facts Button Clicked')
+        getMessage.classList.toggle('facts__single-card-hidden')
+        getOrganisation.classList.toggle('facts__single-card-hidden')
+        getTechnical.classList.toggle('facts__single-card-hidden')
+        if (factsButton.innerText === "View More") {
+            factsButton.innerText = "Hide"
+        } else {
+            factsButton.innerText = "View More"
+        }
+    })
+}
 
 initialisePage()

@@ -213,7 +213,7 @@
 
 .reviews__content {
     display: none;
-    height: 6rem;
+    height: auto;
 }
 
 .reviews__content--active {
@@ -240,7 +240,6 @@
 .selector__profile {
     height: 3rem;
     width: auto;
-    border-radius: 2rem;
 }
 
 .selector__text {
@@ -249,6 +248,12 @@
 
 .selector__name {
     font-weight: bold;
+}
+
+@media (min-width: 900px) {
+    .selector__profile {
+        height: 6rem;
+    }
 }
 
 /* Stats section */
