@@ -1,5 +1,9 @@
 .brands {
     margin: 1rem;
+
+    @media (min-width: 900px) {
+        margin: 2rem 8rem;
+    }
 }
 
 .brands__text {
@@ -26,25 +30,58 @@
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
+
+    @media (min-width: 900px) {
+        flex-direction: row;
+        gap: 4rem;
+        margin: 4rem 4rem;
+        padding: 0;
+    }
 }
 .gallery__img {
     width: 100%;
     border-radius: 4rem;
     height: 14rem;
     margin-bottom: 1rem;
+
+    @media (min-width: 900px) {
+        width: 100%;
+        margin-bottom: 0;
+        align-self: center;
+    }
 }
 .gallery__options {
+    @media (min-width: 900px) {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 .options__tile {
     text-align: center;
     padding: 1rem;
     margin: 1rem 0;
     border-bottom: 6px solid #ffffff;
+
+    @media (min-width: 900px) {
+        border-left: 6px solid #ffffff;
+        text-align: left;
+        margin: 0;
+        transition: transform 0.3s ease;
+        padding: 0.5rem 1rem;
+    }
 }
 
 .options__tile-active {
     background-color: #f0ebfa;
     border-bottom: 6px solid #794cff;
+
+    @media (min-width: 900px) {
+        border-bottom: none;
+        border-left: 6px solid #794cff;
+        transform: scale(1.02);
+    }
 }
 
 .tile__content {
@@ -52,9 +89,22 @@
 }
 .tile__title {
     margin: 0.5rem 0;
+
+    @media (min-width: 900px) {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin: 0;
+    }
 }
 .tile__text {
     font-size: 0.75rem;
+
+    @media (min-width: 900px) {
+        font-size: 0.85rem;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
 }
 
 .facts {
@@ -66,16 +116,41 @@
 }
 .facts__cards {
     margin: 1rem 1rem;
+
+    @media (min-width: 900px) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4rem;
+        margin: 4rem;
+    }
 }
 .facts__single-card {
     margin: 2.5rem 0;
+
+    @media (min-width: 900px) {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }
 .facts__single-card-hidden {
     display: none;
+
+    @media (min-width: 900px) {
+        display: block;
+    }
 }
 
 .facts__img {
     width: 20%;
+
+    @media (min-width: 900px) {
+        width: 50%;
+    }
 }
 .facts__title {
     font-size: 1rem;
@@ -91,6 +166,10 @@
     background-color: #ece5ff;
     border: none;
     color: #7259fa;
+
+    @media (min-width: 900px) {
+        display: hidden;
+    }
 }
 
 .highlight {
