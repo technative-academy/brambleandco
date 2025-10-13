@@ -58,17 +58,32 @@
         margin: 4rem 4rem;
         padding: 0;
     }
+
+    @media (min-width: 1200px) {
+        margin: 4rem 8rem;
+    }
 }
 .gallery__img {
-    width: 100%;
+    width: 80%;
     border-radius: 4rem;
     height: 14rem;
     margin-bottom: 1rem;
+    align-self: center;
+
+    @media (min-width: 600px) {
+        width: 70%;
+        height: 18rem;
+    }
 
     @media (min-width: 900px) {
         width: 100%;
         margin-bottom: 0;
         align-self: center;
+        height: 18rem;
+    }
+
+    @media (min-width: 1200px) {
+        height: 24rem;
     }
 }
 .gallery__options {
@@ -173,6 +188,10 @@
 
     @media (min-width: 900px) {
         width: 50%;
+    }
+
+    @media (min-width: 1200px) {
+        width: 30%;
     }
 }
 .facts__title {
