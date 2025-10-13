@@ -4,13 +4,12 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./assets/css/global.css" />
-        <link rel="stylesheet" href="./assets/css/product.css" />
         <link rel="stylesheet" href="./assets/css/header.css" />
+        <link rel="stylesheet" href="./assets/css/about.css" />
         <link rel="stylesheet" href="./assets/css/footer.css" />
-        <script src="./assets/js/product.js" defer></script>
         <script src="./assets/js/header.js" defer></script>
         <script src="./assets/js/footer.js" defer></script>
-        <title>Our Products</title>
+        <title>About Us</title>
     </head>
     <body>
         <header class="header">
@@ -19,19 +18,13 @@
                 <nav class="menu">
                     <ul class="linklist">
                         <li class="linklist__item">
-                            <a class="linklist__link" href="./index.html"
-                                >Home</a
-                            >
+                            <a class="linklist__link" href="./index.html">Home</a>
                         </li>
                         <li class="linklist__item">
-                            <a class="linklist__link" href="./products.html"
-                                >Products</a
-                            >
+                            <a class="linklist__link" href="./products.html">Products</a>
                         </li>
                         <li class="linklist__item">
-                            <a class="linklist__link" href="./about.html"
-                                >About</a
-                            >
+                            <a class="linklist__link" href="./about.html">About</a>
                         </li>
                     </ul>
                 </nav>
@@ -44,7 +37,7 @@
                 </nav>
             </div>
             <div class="header__content">
-                <h1 class="header__content__title">Products</h1>
+                <h1 class="header__content__title">About Us</h1>
                 <p class="header__content__text">
                     Something classy about us that makes us look trendy
                 </p>
@@ -63,39 +56,93 @@
                 </svg>
             </div>
         </header>
-        <container class="search">
-            <h2 class="search__title">Find the product you are looking for</h2>
-            <input
-                type="text"
-                class="search__input"
-                placeholder="Search products..."
-            />
-        </container>
-        <container>
-            <div id="productCardContainer" class="products">
-                <!-- <div class="product__card">
-                <img
-                    src="./assets/images/food/steak.jpg"
-                    alt="Product Image"
-                    class="card__image"
-                />
-                <div class="card__information">
-                    <h3 class="card__name">Heritage Ribeye</h3>
-                    <p class="card__description">
-                        Perfectly grilled, tender cut of premium beef, rich in
-                        flavor and beautifully marbled. Served with a generous
-                        side of golden, crispy chips, it’s a hearty and
-                        satisfying classic that celebrates true steakhouse
-                        quality.
+        <main class="aboutPage">
+            <article class="about">
+                <section class="about__description">
+                    <h2 class="about__title">We are great.</h2>
+                    <h2 class="about__title">So so so great.</h2>
+                    <p class="about__text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Magni praesentium, tenetur unde molestias sint
+                        repellendus ratione, quam dignissimos fugit saepe fuga
+                        libero totam corporis, laudantium dolorem aliquid?
+                        Sapiente, fugiat eligendi!
                     </p>
-                    <p class="card__rating">5 Stars</p>
-                    <p class="card__price">£35.99</p>
-                </div>
-            </div> -->
-            </div>
-            <button class="product__button">Show more</button>
-        </container>
-        <footer class="footer">
+                    <p class="about__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Tempora tenetur explicabo dolore cum aperiam provident,
+                        eveniet quibusdam beatae. Ut porro qui quo est veritatis
+                        voluptates optio nostrum velit labore amet!
+                    </p>
+                </section>
+                <section class="about__gallery">
+                    <img
+                        class="about__image"
+                        src="./assets/images/hero-food.jpg"
+                        alt=""
+                    />
+                    <figcaption class="about__caption">
+                        This is a wonderful image
+                    </figcaption>
+                </section>
+            </article>
+            <hr class="aboutPage__divider" />
+            <article class="contact">
+                <section class="email">
+                    <h3 class="contact__title">Contact Us</h3>
+                    <p class="email__description">
+                        Email us by filling in the form below
+                    </p>
+                    <form class="email__form">
+                        <label class="email__label" for="name">Name</label>
+                        <input
+                            class="email__input"
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Your Name"
+                        />
+                        <label class="email__label" for="name">Email</label>
+                        <input
+                            class="email__input"
+                            type="text"
+                            id="email"
+                            name="email"
+                            placeholder="Your Email Address"
+                        />
+                        <label class="email__label" for="name">Message</label>
+                        <textarea
+                            class="email__input"
+                            id="message"
+                            name="message"
+                            placeholder="Your Message"
+                            rows="7"
+                        ></textarea>
+                        <input
+                            class="email__submit"
+                            type="submit"
+                            value="Submit"
+                        />
+                    </form>
+                </section>
+                <section class="location">
+                    <iframe
+                        class="location__map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3530.0629108963553!2d-0.11902033243437422!3d50.84297325237696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48758565957aa5ff%3A0x9f36e0e4913da5cd!2sPlus%20X%20Innovation%20Brighton!5e0!3m2!1sen!2suk!4v1760004526439!5m2!1sen!2suk"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                    <h3 class="location__title">Our Address</h3>
+                    <p class="location__address">
+                        Plus X Innovation<br />Lewes Rd<br />Brighton and
+                        Hove<br />BN2 4GL
+                    </p>
+                </section>
+            </article>
+        </main>
+                <footer class="footer">
             <div class="footer__upper">
                 <div class="footer__links">
                     <h3 class="links__title">Company</h3>
@@ -115,15 +162,9 @@
                         <span class="arrow-menu__line"></span>
                     </div>
                     <ul class="links__legal">
-                        <li class="links__link">
-                            <a href="#">Cookie Policy</a>
-                        </li>
-                        <li class="links__link">
-                            <a href="#">Privacy Policy</a>
-                        </li>
-                        <li class="links__link">
-                            <a href="#">Terms of Service</a>
-                        </li>
+                        <li class="links__link"><a href="#">Cookie Policy</a></li>
+                        <li class="links__link"><a href="#">Privacy Policy</a></li>
+                        <li class="links__link"><a href="#">Terms of Service</a></li>
                     </ul>
                 </div>
             </div>
