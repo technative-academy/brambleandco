@@ -168,7 +168,8 @@
 }
 
 .header__content__img {
-    width: 85%;
+    width: 80%;
+    max-width: 1500px;
     height: auto;
     border-radius: 2rem;
     margin-bottom: 4rem;
