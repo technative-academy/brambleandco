@@ -70,6 +70,8 @@
     height: 14rem;
     margin-bottom: 1rem;
     align-self: center;
+    object-fit: cover;
+    max-width: 700px;
 
     @media (min-width: 600px) {
         width: 70%;
@@ -85,6 +87,7 @@
 
     @media (min-width: 1200px) {
         height: 24rem;
+        margin: auto;
     }
 }
 .gallery__options {
