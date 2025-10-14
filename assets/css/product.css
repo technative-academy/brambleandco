@@ -83,6 +83,7 @@
     width: 100%;
     border-radius: 4rem;
     height: 14rem;
+    object-fit: cover;
 
     @media (min-width: 600px) {
         height: 16rem;
