@@ -53,5 +53,5 @@ The live site is available via GitHub Pages:
 
 ## 🤝 Authors
 
-- Wahaj Arsal
-- Matt Hemstock
+- [Wahaj Arsal](https://github.com/Wahaj-Arsal)
+- [Matt Hemstock](https://github.com/waker-btn)
