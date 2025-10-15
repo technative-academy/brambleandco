@@ -2,7 +2,7 @@ let productData = []
 
 const cardContainer = document.getElementById('productCardContainer')
 
-fetch('../data/products.json')
+fetch('../brambleandcodata/products.json')
     .then((response) => {
         if (!response.ok) {
             throw new Error(
