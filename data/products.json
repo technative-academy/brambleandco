@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "../assets/images/food/steak.jpg",
+        "image": "../brambleandco/assets/images/food/steak.jpg",
         "name": "Heritage Steak",
         "description": "Perfectly grilled, tender cut of premium beef, rich in flavor and beautifully marbled. Served with a generous side of golden, crispy chips, it’s a hearty and satisfying classic that celebrates true steakhouse quality.",
         "rating": 4.8,
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "image": "../assets/images/food/burger.jpg",
+        "image": "../brambleandco/assets/images/food/burger.jpg",
         "name": "FireGrill Burger",
         "description": "A juicy beef patty flame-grilled to perfection, topped with melted cheddar, crispy onions, and smoky BBQ sauce, served in a toasted brioche bun.",
         "rating": 4.6,
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "image": "../assets/images/food/pasta.jpg",
+        "image": "../brambleandco/assets/images/food/pasta.jpg",
         "name": "Creamy Tuscan Pasta",
         "description": "Penne tossed in a rich, creamy sauce with sun-dried tomatoes, spinach, and a hint of garlic — comforting and full of flavor.",
         "rating": 4.8,
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "image": "../assets/images/food/tacos.jpg",
+        "image": "../brambleandco/assets/images/food/tacos.jpg",
         "name": "Spicy Street Tacos",
         "description": "Soft tortillas filled with seasoned beef, fresh salsa, jalapeños, and lime crema for a zesty, satisfying bite.",
         "rating": 4.9,
@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "image": "../assets/images/food/pizza.jpg",
+        "image": "../brambleandco/assets/images/food/pizza.jpg",
         "name": "Rustic Margherita Pizza",
         "description": "Stone-baked pizza topped with mozzarella, ripe tomatoes, and fresh basil — simple, classic, and delicious.",
         "rating": 4.2,
